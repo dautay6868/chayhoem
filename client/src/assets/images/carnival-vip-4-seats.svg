@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="500px" viewBox="0 0 800 500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd">
+    <rect fill="#F5F5F5" x="0" y="0" width="800" height="500"/>
+    <g transform="translate(100, 100)">
+      <!-- Car body (slightly more premium) -->
+      <path d="M50,180 C50,120 100,80 200,80 L450,80 C550,80 600,120 600,180 L600,250 C600,280 580,300 550,300 L100,300 C70,300 50,280 50,250 L50,180 Z" fill="#0F223A"/>
+      <!-- Windows (tinted) -->
+      <path d="M150,100 L200,100 L200,180 L150,180 Z" fill="#7DA2C9" opacity="0.7"/>
+      <path d="M230,100 L320,100 L320,180 L230,180 Z" fill="#7DA2C9" opacity="0.7"/>
+      <path d="M350,100 L440,100 L440,180 L350,180 Z" fill="#7DA2C9" opacity="0.7"/>
+      <path d="M470,100 L520,100 L520,180 L470,180 Z" fill="#7DA2C9" opacity="0.7"/>
+      <!-- Wheels (premium) -->
+      <circle cx="150" cy="300" r="40" fill="#333333"/>
+      <circle cx="150" cy="300" r="25" fill="#555555"/>
+      <circle cx="150" cy="300" r="20" fill="#666666"/>
+      <circle cx="500" cy="300" r="40" fill="#333333"/>
+      <circle cx="500" cy="300" r="25" fill="#555555"/>
+      <circle cx="500" cy="300" r="20" fill="#666666"/>
+      <!-- Lights (premium) -->
+      <rect x="80" y="150" width="30" height="20" rx="5" fill="#FFC975"/>
+      <rect x="540" y="150" width="30" height="20" rx="5" fill="#F03E3E"/>
+      <!-- Premium Details -->
+      <rect x="315" y="60" width="30" height="20" rx="10" fill="#D4AF37"/>
+    </g>
+    <!-- Brand name with VIP label -->
+    <text font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#102C57">
+      <tspan x="280" y="450">KIA CARNIVAL</tspan>
+    </text>
+    <text font-family="Arial, sans-serif" font-size="24" font-weight="normal" fill="#D4AF37">
+      <tspan x="320" y="480">4 Chỗ Limousine VIP</tspan>
+    </text>
+  </g>
+</svg>
