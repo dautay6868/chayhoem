@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="500px" viewBox="0 0 800 500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd">
+    <rect fill="#F5F5F5" x="0" y="0" width="800" height="500"/>
+    <g transform="translate(100, 100)">
+      <!-- Car body -->
+      <path d="M50,180 C50,120 100,80 200,80 L450,80 C550,80 600,120 600,180 L600,250 C600,280 580,300 550,300 L100,300 C70,300 50,280 50,250 L50,180 Z" fill="#1A365D"/>
+      <!-- Windows -->
+      <path d="M150,100 L200,100 L200,180 L150,180 Z" fill="#A2D2FF"/>
+      <path d="M230,100 L320,100 L320,180 L230,180 Z" fill="#A2D2FF"/>
+      <path d="M350,100 L440,100 L440,180 L350,180 Z" fill="#A2D2FF"/>
+      <path d="M470,100 L520,100 L520,180 L470,180 Z" fill="#A2D2FF"/>
+      <!-- Wheels -->
+      <circle cx="150" cy="300" r="40" fill="#333333"/>
+      <circle cx="150" cy="300" r="25" fill="#666666"/>
+      <circle cx="500" cy="300" r="40" fill="#333333"/>
+      <circle cx="500" cy="300" r="25" fill="#666666"/>
+      <!-- Lights -->
+      <rect x="80" y="150" width="30" height="20" rx="5" fill="#FFDD57"/>
+      <rect x="540" y="150" width="30" height="20" rx="5" fill="#F25C54"/>
+    </g>
+    <!-- Brand name -->
+    <text font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#102C57">
+      <tspan x="280" y="450">KIA CARNIVAL</tspan>
+    </text>
+    <text font-family="Arial, sans-serif" font-size="24" font-weight="normal" fill="#333333">
+      <tspan x="320" y="480">7 Chỗ Limousine</tspan>
+    </text>
+  </g>
+</svg>
